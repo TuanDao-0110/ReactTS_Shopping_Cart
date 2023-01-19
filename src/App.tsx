@@ -1,18 +1,15 @@
-import { useState } from 'react'
-import Header from './component/Header'
-import Main from './component/Main'
-import Footer from './component/Footer'
+import { useState } from "react";
+import Header from "./component/Header";
+import Main from "./component/Main";
+import Footer from "./component/Footer";
 function App() {
-
-
   return (
-    
-    <div>
-    <Header/>
-    <Main/>
-    <Footer/>
+    <div className="h-full">
+      <Header />
+      <Main />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
